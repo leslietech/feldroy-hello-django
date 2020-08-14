@@ -8,7 +8,7 @@ class HomepageView(TemplateView):
         context = super().get_context_data(**kwargs)
         context['my_statement'] = 'Nice to see you'
         return context
-        
+    
 
 
 
